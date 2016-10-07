@@ -1,0 +1,14 @@
+{
+  "name": "test_node_prj",
+  "version": "1.0.0",
+  "description": "How to test node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dss_liuhl",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  }
+}
