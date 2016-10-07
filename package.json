@@ -8,6 +8,10 @@
   },
   "author": "dss_liuhl",
   "license": "MIT",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/dss-liuhl/test_practice.git"
+  },
   "devDependencies": {
     "mocha": "^3.1.0"
   }
