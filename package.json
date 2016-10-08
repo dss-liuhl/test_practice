@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "How to test node project",
   "main": "index.js",
+  "config":{
+      "blanket":{
+          "pattern":[""],
+          "data-cover-never":["node_modules","test"]
+      }
+  },
   "scripts": {
     "test": "NODE_ENV=test YOURPACKAGE_COVERAGE=1 ./node_modules/.bin/mocha --require blanket --reporter mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
   },
