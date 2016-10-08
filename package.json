@@ -4,7 +4,7 @@
   "description": "How to test node project",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --spec"
+    "test": "mocha"
   },
   "author": "dss_liuhl",
   "license": "MIT",
