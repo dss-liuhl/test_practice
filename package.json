@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "How to test node project",
   "main": "index.js",
-  "config":{
-      "blanket":{
-          "pattern":["/"],
-          "data-cover-never":["node_modules","test"]
-      }
-  },
   "scripts": {
     "test": "make test"
   },
@@ -19,7 +13,6 @@
     "url": "https://github.com/dss-liuhl/test_practice.git"
   },
   "devDependencies": {
-    "blanket": "^1.2.3",
     "coveralls": "^2.11.14",
     "istanbul": "^0.4.5",
     "mocha": "^3.1.0",
