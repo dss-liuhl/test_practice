@@ -13,7 +13,9 @@
     "url": "https://github.com/dss-liuhl/test_practice.git"
   },
   "devDependencies": {
+    "coveralls": "^2.11.14",
     "mocha": "^3.1.0",
+    "mocha-lcov-reporter": "^1.2.0",
     "should": "^11.1.0"
   }
 }
