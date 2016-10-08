@@ -1,6 +1,4 @@
 test:
-	@NODE_ENV=test YOURPACKAGE_COVERAGE=1 ./node_modules/mocha/bin/_mocha \
-  --require blanket \
-  --reporter mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
+	istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 
 .PHONY: test
