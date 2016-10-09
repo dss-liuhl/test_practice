@@ -4,7 +4,7 @@
   "description": "How to test node project",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test-cov"
   },
   "author": "dss_liuhl",
   "license": "MIT",
