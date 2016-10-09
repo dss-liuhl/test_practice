@@ -20,7 +20,9 @@ var fibonacci=function(n){
 if(require.main===module){
 	//如果直接执行 index.js，则进入此处
 	//如果index.js 被其他文件require,则此处不会被执行
+	
 	var n=Number(process.argv[2]);
+	
 	console.log('fibonacci('+n+') is',fibonacci(n));
 }
 
